@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+
+  account:
+    build: account
+    container_name: docker_hands_on_account
+    image: account
+    ports:
+      - 4003:4003
+
+  person:
+    build: person
+    container_name: docker_hands_on_person
+    image: person
+    ports:
+      - 4001:4001
+
+  relationship:
+    build: relationship
+    container_name: docker_hands_on_relationship
+    image: relationship
+    ports:
+      - 4002:4002
+
+  deposit:
+    build: deposit
+    container_name: docker_hands_on_deposit
+    image: deposit
+    ports:
+      - 4004:4004
+
+  gateway:
+    build: gateway
+    container_name: docker_hands_on_gateway
+    image: gateway
+    ports:
+      - 4000:4000

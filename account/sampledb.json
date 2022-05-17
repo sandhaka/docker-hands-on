@@ -1,0 +1,28 @@
+{
+  "accounts":[
+    {
+      "id": 0,
+      "number": 1,
+      "balance": 132000,
+      "currency": "CHF"
+    },
+    {
+      "id": 1,
+      "number": 2,
+      "balance": 80000,
+      "currency": "CHF"
+    },
+    {
+      "id": 2,
+      "number": 3,
+      "balance": 23000,
+      "currency": "CHF"
+    },
+    {
+      "id": 3,
+      "number": 4,
+      "balance": 1000,
+      "currency": "EUR"
+    }
+  ]
+}

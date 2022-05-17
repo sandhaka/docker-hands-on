@@ -1,0 +1,22 @@
+{
+  "relationships": [
+    {
+      "id": 0,
+      "number": 1,
+      "accounts": [ 1 ],
+      "deposits": []
+    },
+    {
+      "id": 1,
+      "number": 2,
+      "accounts": [ 2 ],
+      "deposits": [ 0, 1 ]
+    },
+    {
+      "id": 2,
+      "number": 3,
+      "accounts": [ 0, 3 ],
+      "deposits": []
+    }
+  ]
+}

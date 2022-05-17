@@ -1,0 +1,18 @@
+{
+  "persons":[
+    {
+      "id": 0,
+      "name": "Mauro Rosso",
+      "relationships": [
+        2
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Matteo Padovano",
+      "relationships": [
+        0, 1
+      ]
+    }
+  ]
+}
